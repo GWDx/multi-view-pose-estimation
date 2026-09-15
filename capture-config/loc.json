@@ -1,0 +1,20 @@
+{
+    "task": "loc",
+
+    "minX": -100,
+    "maxX": 100,
+    "minY": -100,
+    "maxY": 100,
+    "minZ": 240,
+    "maxZ": 260,
+
+    "calib": {
+        "pointNumX": 5,
+        "pointNumY": 5,
+        "pointNumZ": 5
+    },
+
+    "loc": {
+        "allNumber": 20
+    }
+}

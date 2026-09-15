@@ -1,0 +1,14 @@
+# Core method and experiment evaluation
+numpy
+scipy
+opencv-contrib-python
+pin
+pandas
+natsort
+matplotlib
+seaborn
+statsmodels
+
+# Optional dependencies for robot and camera data capture
+# pyrealsense2
+# ur-rtde

@@ -1,0 +1,32 @@
+{
+    "task": "oneloc",
+    "type": "circleGrid",
+    "imageAndPoseDirectory": "imr_take/",
+    "poseRelativeFile": "pose.txt",
+    "calibResultFile": "avg_tq_bTt.txt",
+    "maxImageLength": 200,
+    "batchSize": 1,
+    "calibMethod": "CALIB_HAND_EYE_TSAI",
+
+    "oneloc": {
+        "imageRelativeFile": "0.jpg"
+    },
+
+    "charuco": {
+        "ARUCO_DICT": "DICT_5X5_250",
+        "SQUARE_LENGTH": 40,
+        "MARKER_LENGTH": 30,
+        "SQUARES_VERTICALLY": 14,
+        "SQUARES_HORIZONTALLY": 9,
+        "selectedAruco": [31]
+    },
+    "aruco": {
+        "ARUCO_DICT": "DICT_ARUCO_ORIGINAL",
+        "MARKER_LENGTH": 80
+    },
+    "circleGrid": {
+        "circleDistance": 7,
+        "circleRadius": 1.75,
+        "circlePerRow": 7
+    }
+}
